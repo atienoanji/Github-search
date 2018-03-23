@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { GithubComponent } from './github/github.component';
+import { StrikethroughDirective } from './strikethrough.directive';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GithubComponent,
+    StrikethroughDirective
   ],
   imports: [
     BrowserModule
