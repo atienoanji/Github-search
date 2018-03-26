@@ -4,7 +4,11 @@ import { Directive } from '@angular/core';
   selector: '[appStrikethrough]'
 })
 export class StrikethroughDirective {
-
-  constructor() { }
+// 
+//   constructor(private elem:ElementRef) {}
+//
+// private textDeco(action:string){
+//      this.elem.nativeElement.style.textDecoration='line-through';
+// }
 
 }
