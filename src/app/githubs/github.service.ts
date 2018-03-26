@@ -7,7 +7,7 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class GithubService {
  private username:string;
- private api_key:string = environment.api_key;
+ private api_key:string = '906740accb4ed5a67231f847d279285e41b65cf9';
 
  constructor(private _http:HttpClient) {
    this.username = 'atienoanji';
